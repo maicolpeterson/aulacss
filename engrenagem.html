@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGRENAGEM</title>
+    
+<style>
+    .minha_engrenagem1
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        animation: engrena 5s infinite linear alternate;
+    }
+    @keyframes engrena
+        {
+            0%   { rotate: 0deg; }
+            
+            100% { rotate: -360deg;  }
+        }
+
+
+        .minha_engrenagem2
+    {
+        position: absolute;
+        rotate:45deg;
+        top: 10px;
+        left: 470px;
+        animation: engrena2 5s infinite linear alternate;
+    }
+    @keyframes engrena2
+        {
+           0% {rotate:35deg;}
+            
+            100% { rotate: 395deg;  }
+        }
+
+
+</style>
+
+</head>
+<body>
+    <img src="engrenagem.png" class="minha_engrenagem1">
+    <img src="engrenagem.png" class="minha_engrenagem2">
+</body>
+</html>
